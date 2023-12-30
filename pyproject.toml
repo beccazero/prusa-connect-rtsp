@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "prusa-connect-rtsp"
+version = "0.1.0"
+description = ""
+authors = ["wcbzero <wcbzero@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+opencv-python-headless = "^4.8.1.78"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
